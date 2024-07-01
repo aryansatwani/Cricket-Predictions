@@ -32,7 +32,7 @@ teams = ['India',
  'Afghanistan',
  'Netherlands']
 
-pipe = pickle.load(open('pipe1.pkl', 'rb'))
+pipe = pickle.load(open('pipe2.pkl', 'rb'))
 st.title('ODI Win Predictor')
 
 col1,col2 = st.columns(2)
